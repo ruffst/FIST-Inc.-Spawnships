@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RespawnShips>
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>KautschSpawnship</SubtypeId>
+      </Id>
+	  <PlanetTypes>
+            <PlanetType>EarthLike</PlanetType>
+      </PlanetTypes>
+      <DisplayName>Kautsch Spawnship</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\KautschSpawnship.png</Icon>
+      <CooldownSeconds>600</CooldownSeconds>
+      <Prefab>KautschSpawnship</Prefab>
+      <MinimalAirDensity>.8</MinimalAirDensity>
+      <PlanetDeployAltitude>3500</PlanetDeployAltitude>
+      <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnPlanetPod</SubtypeId>
+      </Id>
+      <Prefab>RespawnPlanetPod</Prefab>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnSpacePod</SubtypeId>
+      </Id>
+      <Prefab>RespawnSpacePod</Prefab>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnMoonPod</SubtypeId>
+      </Id>
+      <Prefab>RespawnMoonPod</Prefab>
+    </Ship>
+
+  </RespawnShips>
+</Definitions>

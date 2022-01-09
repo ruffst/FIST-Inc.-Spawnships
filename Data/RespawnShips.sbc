@@ -12,7 +12,7 @@
       <DisplayName>Kautsch Spawnship</DisplayName>
       <Icon>Textures\GUI\Icons\RespawnShips\KautschSpawnship.png</Icon>
       <CooldownSeconds>600</CooldownSeconds>
-      <Prefab>KautschSpawnship</Prefab>
+      <Prefab>Pioneer_b_Sol_1.2</Prefab>
       <MinimalAirDensity>.8</MinimalAirDensity>
       <PlanetDeployAltitude>3500</PlanetDeployAltitude>
       <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>

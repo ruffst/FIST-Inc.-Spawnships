@@ -10,11 +10,11 @@
           <PersistentFlags>CastShadows InScene</PersistentFlags>
           <Name>112313387932033004</Name>
           <PositionAndOrientation>
-            <Position x="-31675.947004624424" y="-77312.401297518256" z="41919.050852558532" />
-            <Forward x="-0.596246362" y="0.290591836" z="-0.7483627" />
-            <Up x="0.7892063" y="0.04134033" z="-0.6127352" />
+            <Position x="-31675.9469832791" y="-77312.401297299424" z="41919.050870692809" />
+            <Forward x="-0.596246362" y="0.290591776" z="-0.74836266" />
+            <Up x="0.789206266" y="0.0413403139" z="-0.6127353" />
             <Orientation>
-              <X>-0.12567687</X>
+              <X>-0.1256769</X>
               <Y>0.331698626</Y>
               <Z>-0.6808342</Z>
               <W>0.6408168</W>
@@ -241,7 +241,7 @@
                             <SubtypeName>HydrogenBottle</SubtypeName>
                             <GasLevel>0</GasLevel>
                           </PhysicalContent>
-                          <ItemId>3</ItemId>
+                          <ItemId>1</ItemId>
                         </MyObjectBuilder_InventoryItem>
                         <MyObjectBuilder_InventoryItem>
                           <Amount>1</Amount>
@@ -249,7 +249,7 @@
                             <SubtypeName>HydrogenBottle</SubtypeName>
                             <GasLevel>0</GasLevel>
                           </PhysicalContent>
-                          <ItemId>1</ItemId>
+                          <ItemId>2</ItemId>
                         </MyObjectBuilder_InventoryItem>
                         <MyObjectBuilder_InventoryItem>
                           <Amount>1</Amount>
@@ -258,10 +258,10 @@
                             <GasLevel>0</GasLevel>
                             <OxygenLevel>0</OxygenLevel>
                           </PhysicalContent>
-                          <ItemId>4</ItemId>
+                          <ItemId>3</ItemId>
                         </MyObjectBuilder_InventoryItem>
                       </Items>
-                      <nextItemId>5</nextItemId>
+                      <nextItemId>4</nextItemId>
                       <Volume>3.375</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
@@ -534,7 +534,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
-              <Enabled>true</Enabled>
+              <Enabled>false</Enabled>
               <BroadcastRadius>5000</BroadcastRadius>
               <HudText />
             </MyObjectBuilder_CubeBlock>
@@ -732,7 +732,7 @@
                       <TimerEnabled>true</TimerEnabled>
                       <RemoveEntityOnTimer>false</RemoveEntityOnTimer>
                       <TimerType>Frame10</TimerType>
-                      <FramesFromLastTrigger>30</FramesFromLastTrigger>
+                      <FramesFromLastTrigger>10</FramesFromLastTrigger>
                       <TimerTickInFrames>60</TimerTickInFrames>
                       <IsSessionUpdateEnabled>false</IsSessionUpdateEnabled>
                     </Component>
@@ -880,7 +880,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <DetectionRadius>25</DetectionRadius>
+              <DetectionRadius>80.10091</DetectionRadius>
               <BroadcastUsingAntennas>true</BroadcastUsingAntennas>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -1011,7 +1011,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0.0282702763</CurrentStoredPower>
+              <CurrentStoredPower>0.0282918327</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1245,7 +1245,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0.0282695759</CurrentStoredPower>
+              <CurrentStoredPower>0.0282911789</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1265,7 +1265,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0.0282690022</CurrentStoredPower>
+              <CurrentStoredPower>0.0282906</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1293,7 +1293,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0.028268462</CurrentStoredPower>
+              <CurrentStoredPower>0.0282900538</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -1671,10 +1671,10 @@
                           <PhysicalContent xsi:type="MyObjectBuilder_Component">
                             <SubtypeName>Canvas</SubtypeName>
                           </PhysicalContent>
-                          <ItemId>1</ItemId>
+                          <ItemId>0</ItemId>
                         </MyObjectBuilder_InventoryItem>
                       </Items>
-                      <nextItemId>2</nextItemId>
+                      <nextItemId>1</nextItemId>
                       <Volume>0.008</Volume>
                       <Mass>9223372036854.775807</Mass>
                       <MaxItemCount>2147483647</MaxItemCount>
@@ -2317,7 +2317,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <CurrentStoredPower>0.233737186</CurrentStoredPower>
+              <CurrentStoredPower>0.234168082</CurrentStoredPower>
               <ProducerEnabled>true</ProducerEnabled>
               <MaxStoredPower>0</MaxStoredPower>
               <SemiautoEnabled>false</SemiautoEnabled>
@@ -2599,6 +2599,24 @@
               <ColorMaskHSV x="0" y="-0.8" z="0.55" />
               <SkinSubtypeId>Battered_Armor</SkinSubtypeId>
             </MyObjectBuilder_CubeBlock>
+            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Beacon">
+              <SubtypeName>DeleteProtectionSmall</SubtypeName>
+              <EntityId>136257245858167068</EntityId>
+              <Name>136257245858167068</Name>
+              <Min x="-7" y="2" z="6" />
+              <BlockOrientation Forward="Left" Up="Up" />
+              <ColorMaskHSV x="0" y="-0.8" z="0.55" />
+              <SkinSubtypeId>Clean_Armor</SkinSubtypeId>
+              <BuiltBy>144115188075855895</BuiltBy>
+              <CustomName>Delete Protection</CustomName>
+              <ShowOnHUD>false</ShowOnHUD>
+              <ShowInTerminal>true</ShowInTerminal>
+              <ShowInToolbarConfig>true</ShowInToolbarConfig>
+              <ShowInInventory>true</ShowInInventory>
+              <Enabled>true</Enabled>
+              <BroadcastRadius>7500</BroadcastRadius>
+              <HudText>I like Let's Kautsch</HudText>
+            </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
           <DampenersEnabled>false</DampenersEnabled>
           <ConveyorLines>
@@ -2714,4 +2732,4 @@
     </Prefab>
   </Prefabs>
 </Definitions>
-<!-- Saved '2022-01-09T12:57:10.6012537+01:00' with SEToolbox version '1.198.24.1' -->
+<!-- Saved '2022-01-09T13:08:45.4024105+01:00' with SEToolbox version '1.198.24.1' -->
